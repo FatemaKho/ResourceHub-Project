@@ -1,0 +1,64 @@
+header {
+    font-family: 'Libre Baskerville', serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4vh;
+}
+
+body {
+    background-color: #0F3F6C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* secondary font #81B9EE and call out #6FFFE9 */
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list li {
+    margin-right: 10vh;
+}
+
+.section-wrapper {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HTML, .CSS, .JS {
+    width:100%;
+    border: 2px solid #FFFFFF;
+    border-radius: 2vh;
+    padding: 2vh;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.HTML h2, .CSS h2, .JS h2 {
+    font-size: 2.5vh;
+    color: #81B9EE;
+}
+
+#resources, #contactMe, #aboutMe {
+    text-align: center;
+    color: #6FFFE9;
+}
+
+#photo {
+    width: 40vh;
+    display: flex;
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+}
